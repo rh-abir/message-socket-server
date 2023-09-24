@@ -5,6 +5,8 @@ const io = require("socket.io")(8000, {
   },
 });
 
+
+
 let users = [];
 
 const addUser = (userEmail, socketId, userInfo) => {
@@ -80,3 +82,4 @@ io.on("connection", (socket) => {
     io.emit("getUser", users);
   });
 });
+
