@@ -53,7 +53,7 @@ const Messenger = () => {
 
   //  sokcit server connection
   useEffect(() => {
-    socket.current = io("ws://localhost:8000");
+    socket.current = io("wss://poised-tartan-stick.glitch.me");
     socket.current.on("getMessage", (data) => {
       // console.log(data);
       setSocketMessage(data);

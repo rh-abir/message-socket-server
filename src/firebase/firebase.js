@@ -1,14 +1,16 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCVAGcF6WIEELpcj6OHRcYg7u4c_zvMUvQ",
-  authDomain: "message-27eb5.firebaseapp.com",
-  projectId: "message-27eb5",
-  storageBucket: "message-27eb5.appspot.com",
-  messagingSenderId: "422806025658",
-  appId: "1:422806025658:web:41bf9d59d032aa5b429983",
+  apiKey: "AIzaSyA0t4FjR6OsLWLHzWrMAYdM7VOnTp8zoes",
+  authDomain: "chat-application-7221c.firebaseapp.com",
+  projectId: "chat-application-7221c",
+  storageBucket: "chat-application-7221c.appspot.com",
+  messagingSenderId: "497935480106",
+  appId: "1:497935480106:web:27d8420a0000e648621a53",
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 export default app;
